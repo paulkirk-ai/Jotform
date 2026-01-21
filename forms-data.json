@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Handover Take Over",
+    "url": "https://velocity.jotform.com/250365165216049",
+    "icon": "fa-exchange-alt",
+    "category": "Fleet"
+  },
+  {
+    "title": "Vehicle Defect Report",
+    "url": "https://velocity.jotform.com/242984033860965",
+    "icon": "fa-car-crash",
+    "category": "Fleet"
+  },
+  {
+    "title": "Vehicle Driver Check",
+    "url": "https://velocity.jotform.com/243123688621053",
+    "icon": "fa-id-card",
+    "category": "Fleet"
+  },
+  {
+    "title": "Roadmaster Unit Inspection",
+    "url": "https://velocity.jotform.com/242981462017962",
+    "icon": "fa-search",
+    "category": "Fleet"
+  },
+  {
+    "title": "Towtal Towing Frame",
+    "url": "https://velocity.jotform.com/250332825546052",
+    "icon": "fa-truck",
+    "category": "Fleet"
+  },
+  {
+    "title": "Daily Worksite Sheet",
+    "url": "https://velocity.jotform.com/243442728961968",
+    "icon": "fa-clipboard-list",
+    "category": "Operations"
+  },
+  {
+    "title": "Operators Daily Time Sheet",
+    "url": "https://velocity.jotform.com/243161808712050",
+    "icon": "fa-clock",
+    "category": "Operations"
+  },
+  {
+    "title": "Daily Running Sheet",
+    "url": "https://velocity.jotform.com/243161530453953",
+    "icon": "fa-route",
+    "category": "Operations"
+  },
+  {
+    "title": "Work Continuation Form",
+    "url": "https://velocity.jotform.com/242914119268965",
+    "icon": "fa-tasks",
+    "category": "Operations"
+  },
+  {
+    "title": "Materials Ordering",
+    "url": "https://velocity.jotform.com/250063215760347",
+    "icon": "fa-shopping-cart",
+    "category": "Operations"
+  },
+  {
+    "title": "Equipment Daily Inspection",
+    "url": "https://velocity.jotform.com/242983096056970",
+    "icon": "fa-clipboard-check",
+    "category": "Equipment"
+  },
+  {
+    "title": "Incident Report Form",
+    "url": "https://velocity.jotform.com/243454080592962",
+    "icon": "fa-exclamation-triangle",
+    "category": "Safety"
+  },
+  {
+    "title": "Site Induction Form",
+    "url": "https://velocity.jotform.com/250373582967973",
+    "icon": "fa-user-plus",
+    "category": "Safety"
+  },
+  {
+    "title": "Request to Work Weekend",
+    "url": "https://velocity.jotform.com/242951951205961",
+    "icon": "fa-calendar-alt",
+    "category": "Scheduling"
+  },
+  {
+    "title": "Tools & Consumables Request",
+    "url": "https://velocity.jotform.com/250051194521951",
+    "icon": "fa-tools",
+    "category": "Stores"
+  },
+  {
+    "title": "Wear Parts Request",
+    "url": "https://velocity.jotform.com/250133864681963",
+    "icon": "fa-cogs",
+    "category": "Stores"
+  },
+  {
+    "title": "PPE Request",
+    "url": "https://velocity.jotform.com/250083265800955",
+    "icon": "fa-hard-hat",
+    "category": "Stores"
+  },
+  {
+    "title": "Items Stored on Patcher",
+    "url": "https://velocity.jotform.com/250132444017949",
+    "icon": "fa-box",
+    "category": "Stores"
+  },
+  {
+    "title": "Staff Phone List",
+    "url": "https://velocity.jotform.com/250232271775959",
+    "icon": "fa-address-book",
+    "category": "Contact"
+  }
+]

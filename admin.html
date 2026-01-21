@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin - Update Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="admin-styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-cog"></i> Dashboard Admin</h1>
+            <p class="subtitle">Update Forms and Manage Dashboard</p>
+        </div>
+
+        <!-- Add/Edit Form Section -->
+        <div class="form-section">
+            <h2 id="form-mode-title">Add New Form</h2>
+            <form id="form-editor">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="form-title">Form Title *</label>
+                        <input type="text" id="form-title" required placeholder="e.g., Daily Worksite Sheet">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-url">Form URL *</label>
+                        <input type="url" id="form-url" required placeholder="https://velocity.jotform.com/...">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="form-category">Category *</label>
+                        <select id="form-category" required>
+                            <option value="">Select a category</option>
+                            <option value="Fleet">Fleet</option>
+                            <option value="Operations">Operations</option>
+                            <option value="Equipment">Equipment</option>
+                            <option value="Safety">Safety</option>
+                            <option value="Scheduling">Scheduling</option>
+                            <option value="Stores">Stores</option>
+                            <option value="Contact">Contact</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-icon">Icon *</label>
+                        <select id="form-icon" required>
+                            <option value="">Select an icon</option>
+                            <option value="fa-clipboard-list">Clipboard List</option>
+                            <option value="fa-clock">Clock</option>
+                            <option value="fa-route">Route</option>
+                            <option value="fa-tasks">Tasks</option>
+                            <option value="fa-shopping-cart">Shopping Cart</option>
+                            <option value="fa-exchange-alt">Exchange</option>
+                            <option value="fa-car-crash">Car Crash</option>
+                            <option value="fa-id-card">ID Card</option>
+                            <option value="fa-search">Search</option>
+                            <option value="fa-truck">Truck</option>
+                            <option value="fa-clipboard-check">Clipboard Check</option>
+                            <option value="fa-exclamation-triangle">Exclamation Triangle</option>
+                            <option value="fa-user-plus">User Plus</option>
+                            <option value="fa-calendar-alt">Calendar</option>
+                            <option value="fa-tools">Tools</option>
+                            <option value="fa-cogs">Cogs</option>
+                            <option value="fa-hard-hat">Hard Hat</option>
+                            <option value="fa-box">Box</option>
+                            <option value="fa-address-book">Address Book</option>
+                            <option value="fa-file-alt">File</option>
+                            <option value="fa-wrench">Wrench</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="icon-preview" id="icon-preview">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Add Form
+                    </button>
+                    <button type="button" id="cancel-edit" class="btn btn-warning" style="display: none;">
+                        <i class="fas fa-times"></i> Cancel
+                    </button>
+                    <button type="button" id="clear-form" class="btn btn-info">
+                        <i class="fas fa-eraser"></i> Clear
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Current Forms List -->
+        <div class="items-section">
+            <h2>Current Forms (<span id="form-count">0</span>)</h2>
+            <div class="item-list" id="forms-list">
+                <!-- Forms will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Export Section -->
+        <div class="upload-section">
+            <h3><i class="fas fa-download"></i> Export Updated Data</h3>
+            <p>After making changes, download the updated JSON file to commit to GitHub</p>
+            
+            <div class="button-group">
+                <button onclick="downloadJSON()" class="btn btn-success">
+                    <i class="fas fa-download"></i> Download forms-data.json
+                </button>
+                <button onclick="copyJSON()" class="btn btn-info">
+                    <i class="fas fa-copy"></i> Copy JSON to Clipboard
+                </button>
+            </div>
+
+            <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.2); border-radius: 8px;">
+                <h4 style="color: white; margin-bottom: 10px;">GitHub Deployment Steps:</h4>
+                <ol style="color: white; line-height: 1.8;">
+                    <li>Click "Download forms-data.json" above</li>
+                    <li>Replace the old forms-data.json file in your repository</li>
+                    <li>Commit and push the changes to GitHub</li>
+                    <li>GitHub Pages will automatically deploy the updates</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
