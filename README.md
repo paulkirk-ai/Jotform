@@ -199,17 +199,7 @@ The `admin.html` file is accessible to anyone with the link. To protect it:
 - Check internet connection (Font Awesome loads from CDN)
 - Verify icon name format: `fa-icon-name` (not `fas fa-icon-name` in JSON)
 
-## 📞 Support
 
-For technical issues:
-- Email: paul.kirk@archwayroadmaster.co.uk
-- Check GitHub Issues tab in repository
-- Review this README for common solutions
-
-## 📄 License
-
-Internal use for Archway Roadmaster UK
-© 2023 Archway Roadmaster UK
 
 ---
 
