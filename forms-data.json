@@ -65,6 +65,12 @@
     "icon": "fa-clipboard-check",
     "category": "Equipment"
   },
+   {
+    "title": "Incident Report Form",
+    "url": "https://velocity.jotform.com/243454080592962",
+    "icon": "fa-exclamation-triangle",
+    "category": "Safety"
+  },
   {
     "title": "Weekend Arrangement",
     "url": "https://velocity.jotform.com/assign/260264299927065/260392163549057",
