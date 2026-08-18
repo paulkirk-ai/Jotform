@@ -65,7 +65,7 @@
     "icon": "fa-clipboard-check",
     "category": "Equipment"
   },
-   {
+  {
     "title": "Incident Report Form",
     "url": "https://velocity.jotform.com/243454080592962",
     "icon": "fa-exclamation-triangle",
@@ -106,5 +106,17 @@
     "url": "https://velocity.jotform.com/250232271775959",
     "icon": "fa-address-book",
     "category": "Contact"
+  },
+  {
+    "title": "RAMS",
+    "url": "https://velocity.jotform.com/251411199092051",
+    "icon": "fa-tasks",
+    "category": "Safety"
+  },
+  {
+    "title": "Red Book Street Works",
+    "url": "https://velocity.jotform.com/252012658809055",
+    "icon": "fa-file-alt",
+    "category": "Safety"
   }
 ]
